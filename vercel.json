@@ -1,0 +1,11 @@
+{
+  "framework": "gatsby",
+  "buildCommand": "gatsby build",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
