@@ -1,11 +1,7 @@
 {
-  "framework": "gatsby",
   "buildCommand": "gatsby build",
   "outputDirectory": "public",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ]
+  "engines": {
+    "node": "16.x"
+  }
 }
